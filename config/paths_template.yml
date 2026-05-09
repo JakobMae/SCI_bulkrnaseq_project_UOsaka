@@ -19,3 +19,4 @@ outputs:
   program_scores: "results/program_scores"
   qpcr: "results/qpcr"
   validation: "results/validation"
+  reactome_communities: "results/reactome_communities"
