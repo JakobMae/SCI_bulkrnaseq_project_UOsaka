@@ -3,8 +3,7 @@ project:
 
 inputs:
   raw_counts: "data/private/F9586_v969_raw_count.tsv"
-  sample_metadata: "data/metadata/sample_metadata.tsv"
-  gene_map: "data/metadata/gene_map_ensembl_to_symbol.tsv"
+  raw_metadata: "data/private/F9586_v969_group_chef.tsv"
 
 references:
   msigdb_dir: "data/references/msigdb"
