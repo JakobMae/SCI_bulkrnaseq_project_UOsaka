@@ -1,0 +1,30 @@
+groups:
+  WT_SHAM_d7:
+    color: "#A6CEE3"
+    label: "WT sham, 7 dpi"
+  WT_SCI_d7:
+    color: "#1F78B4"
+    label: "WT SCI, 7 dpi"
+  KO_SHAM_d7:
+    color: "#FDBF6F"
+    label: "Gpnmb KO sham, 7 dpi"
+  KO_SCI_d7:
+    color: "#FF7F00"
+    label: "Gpnmb KO SCI, 7 dpi"
+  DTR_PBS_d14:
+    color: "#B2DF8A"
+    label: "Gpnmb-DTR PBS, 14 dpi"
+  DTR_DTX_d14:
+    color: "#33A02C"
+    label: "Gpnmb-DTR DTX, 14 dpi"
+
+volcano:
+  up_color: "#D73027"
+  down_color: "#4575B4"
+  ns_color: "#BDBDBD"
+  fdr_cutoff: 0.05
+  logfc_cutoff: 1.0
+
+style:
+  font_family: "Arial"
+  base_size: 9

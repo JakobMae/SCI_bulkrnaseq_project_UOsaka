@@ -1,0 +1,18 @@
+contrasts:
+  WT_SCI_vs_SHAM_dpi7:
+    numerator: "WT_SCI_d7"
+    denominator: "WT_SHAM_d7"
+    description: "Wild-type spinal cord injury response at 7 dpi."
+
+  KO_SCI_vs_SHAM_dpi7:
+    numerator: "KO_SCI_d7"
+    denominator: "KO_SHAM_d7"
+    description: "Gpnmb knockout spinal cord injury response at 7 dpi."
+
+  DTR_DTX_vs_PBS_dpi14:
+    numerator: "DTR_DTX_d14"
+    denominator: "DTR_PBS_d14"
+    description: "Effect of DTX-mediated depletion of Gpnmb-expressing cells at 14 dpi."
+
+  Injury_interaction_WTvsKO:
+    description: "Interaction contrast testing whether the injury response differs between WT and Gpnmb knockout."

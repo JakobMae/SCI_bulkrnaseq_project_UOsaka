@@ -1,0 +1,28 @@
+
+# Local/private config
+config/paths.yml
+
+# Private/confidential data
+data/private/
+data/raw/
+data/references/tabpar/raw_or_private_files/
+
+# Large biological data files
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.loom
+*.h5ad
+*.mtx
+*.mtx.gz
+*.rds
+*.RData
+*.rda
+
+# Notebook/cache clutter
+.ipynb_checkpoints/
+__pycache__/
+.Rhistory
+.Rproj.user/
+.DS_Store
