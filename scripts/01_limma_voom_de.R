@@ -264,6 +264,19 @@ meta_export <- meta |>
 stopifnot(!any(is.na(meta_export$group_short)))
 stopifnot(!any(is.na(meta_export$color)))
 
+meta_export <- meta_export %>%
+  dplyr::rename(sample_id = sample) %>%
+  dplyr::select(
+    sample_id,
+    sample_raw,
+    group,
+    group_raw,
+    group_short,
+    color,
+    sample_index,
+    sample_label
+  )
+
 readr::write_tsv(logcpm_annotated, file.path(dir_obj, "logcpm_annotated.tsv"))
 readr::write_tsv(meta_export, file.path(dir_obj, "sample_metadata.tsv"))
 
