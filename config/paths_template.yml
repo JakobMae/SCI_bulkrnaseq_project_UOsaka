@@ -1,5 +1,5 @@
 project:
-  root: "/Users/jakobmaeots/Jaapan/Code"
+  root: "."
 
 inputs:
   raw_counts: "data/private/F9586_v969_raw_count.tsv"
