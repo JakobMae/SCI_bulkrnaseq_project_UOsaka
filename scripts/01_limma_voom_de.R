@@ -278,6 +278,23 @@ meta_export <- meta_export %>%
   )
 
 readr::write_tsv(logcpm_annotated, file.path(dir_obj, "logcpm_annotated.tsv"))
+if (!"sample_id" %in% colnames(meta_export)) {
+  meta_export <- meta_export |>
+    dplyr::rename(sample_id = sample)
+}
+
+meta_export <- meta_export |>
+  dplyr::select(
+    sample_id,
+    sample_raw,
+    group,
+    group_raw,
+    group_short,
+    color,
+    sample_index,
+    sample_label
+  )
+
 readr::write_tsv(meta_export, file.path(dir_obj, "sample_metadata.tsv"))
 
 saveRDS(v, file.path(dir_obj, "voom_object.rds"))

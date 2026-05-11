@@ -26,3 +26,32 @@ __pycache__/
 .Rhistory
 .Rproj.user/
 .DS_Store
+
+# qPCR raw QuantStudio/primer exports
+data/qpcr/*.xls
+data/qpcr/*.xlsx
+
+# generated analysis outputs
+results/**
+
+# local/private/reference data
+data/private/**
+data/qpcr/**
+data/references/**
+
+# keep lightweight documentation files if present
+!data/README.md
+!results/README.md
+
+# local config
+config/paths.yml
+
+# binary R objects and large matrices
+*.rds
+*.mtx
+*.mtx.gz
+
+# system/cache files
+.DS_Store
+__pycache__/
+*.pyc
