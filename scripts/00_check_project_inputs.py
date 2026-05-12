@@ -4,7 +4,7 @@ Script: 00_check_project_inputs.py
 
 Purpose:
     Checks that the local input files required for the public-facing
-    Gpnmb SCI analysis repository are present.
+    gene-X SCI analysis repository are present.
 
 Inputs:
     - config/paths.yml

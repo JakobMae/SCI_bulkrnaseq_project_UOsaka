@@ -7,16 +7,16 @@ groups:
     label: "WT SCI, 7 dpi"
   KO_SHAM_d7:
     color: "#FDBF6F"
-    label: "Gpnmb KO sham, 7 dpi"
+    label: "gene-X KO sham, 7 dpi"
   KO_SCI_d7:
     color: "#FF7F00"
-    label: "Gpnmb KO SCI, 7 dpi"
+    label: "gene-X KO SCI, 7 dpi"
   DTR_PBS_d14:
     color: "#B2DF8A"
-    label: "Gpnmb-DTR PBS, 14 dpi"
+    label: "gene-X-DTR PBS, 14 dpi"
   DTR_DTX_d14:
     color: "#33A02C"
-    label: "Gpnmb-DTR DTX, 14 dpi"
+    label: "gene-X-DTR DTX, 14 dpi"
 
 volcano:
   up_color: "#D73027"

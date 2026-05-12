@@ -5,7 +5,7 @@
 #
 # Purpose:
 #   Builds Reactome pathway communities for the DTX-vs-PBS
-#   Gpnmb-DTR contrast using leading-edge gene overlap.
+#   gene-X-DTR contrast using leading-edge gene overlap.
 #
 #   Upregulated and downregulated Reactome pathways are clustered
 #   separately, matching the original notebook logic.

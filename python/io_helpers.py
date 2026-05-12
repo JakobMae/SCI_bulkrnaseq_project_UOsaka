@@ -1,4 +1,4 @@
-"""Small shared path helpers for the Gpnmb SCI analysis scripts."""
+"""Small shared path helpers for the gene-X SCI analysis scripts."""
 
 from pathlib import Path
 import yaml

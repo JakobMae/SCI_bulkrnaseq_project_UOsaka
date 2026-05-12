@@ -54,17 +54,17 @@ CONTRASTS = {
     },
     "KO_SCI_vs_SHAM_dpi7": {
         "file": "deg_KO_SCI_vs_SHAM_dpi7_annotated.tsv",
-        "title": "Gpnmb KO SCI vs sham, 7 dpi",
+        "title": "gene-X KO SCI vs sham, 7 dpi",
         "threshold_type": "standard",
     },
     "DTR_DTX_vs_PBS_dpi14": {
         "file": "deg_DTR_DTX_vs_PBS_dpi14_annotated.tsv",
-        "title": "Gpnmb-DTR DTX vs PBS, 14 dpi",
+        "title": "gene-X-DTR DTX vs PBS, 14 dpi",
         "threshold_type": "standard",
     },
     "Injury_interaction_WTvsKO": {
         "file": "deg_Injury_interaction_WTvsKO_annotated.tsv",
-        "title": "Injury interaction: WT vs Gpnmb KO",
+        "title": "Injury interaction: WT vs gene-X KO",
         "threshold_type": "interaction",
     },
 }

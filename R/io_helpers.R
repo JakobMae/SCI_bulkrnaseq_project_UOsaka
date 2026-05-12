@@ -1,4 +1,4 @@
-# Shared input/output helper functions for the Gpnmb SCI bulk RNA-seq analysis.
+# Shared input/output helper functions for the gene-X SCI bulk RNA-seq analysis.
 # These functions keep path handling consistent across all R scripts.
 
 suppressPackageStartupMessages({

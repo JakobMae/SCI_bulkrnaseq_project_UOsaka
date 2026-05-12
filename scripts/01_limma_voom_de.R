@@ -3,7 +3,7 @@
 #
 # Purpose:
 #   Runs the core bulk RNA-seq differential expression analysis for
-#   the Gpnmb spinal cord injury project using edgeR + limma-voom.
+#   the gene-X spinal cord injury project using edgeR + limma-voom.
 #
 # Inputs:
 #   - config/paths.yml

@@ -4,7 +4,7 @@
 # Script: 06_reactome_communities_ko.R
 #
 # Purpose:
-#   Builds Reactome pathway communities for the WT-vs-Gpnmb KO
+#   Builds Reactome pathway communities for the WT-vs-gene-X KO
 #   injury interaction contrast using leading-edge gene overlap.
 #
 # Inputs:
