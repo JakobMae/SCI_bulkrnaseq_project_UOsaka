@@ -1,2 +1,0 @@
-Python version: 3.11.14 | packaged by conda-forge | (main, Jan 27 2026, 00:01:01) [Clang 19.1.7 ]
-Platform: macOS-26.4.1-arm64-arm-64bit
